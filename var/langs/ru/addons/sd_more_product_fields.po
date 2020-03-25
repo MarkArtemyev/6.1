@@ -1,0 +1,29 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::sd_more_product_fields"
+msgid "More product fields"
+msgstr "More product fields"
+
+msgctxt "Addons::description::sd_more_product_fields"
+msgid "Тест"
+msgstr "Тест"
+
+msgctxt "Languages::subhead"
+msgid "Расширеное поле редакцитрования товара"
+msgstr "Расширеное поле редакцитрования товара"
+
+msgctxt "Languages::art_by"
+msgid "Художник"
+msgstr "Художник"
+
+msgctxt "Languages::written_by"
+msgid "Автор"
+msgstr "Автор"
+
+msgctxt "Languages::release_date"
+msgid "Дата выхода"
+msgstr "Дата выхода"
