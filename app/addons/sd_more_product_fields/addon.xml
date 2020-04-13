@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>sd_more_product_fields</id>
+    <version>1.0</version>
+    <priority>100</priority>
+    <position>0</position>
+    <status>active</status>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <default_language>en</default_language>
+    
+    <queries>
+        <item>
+            ALTER TABLE ?:product_descriptions 
+            ADD art_by VARCHAR(255),
+            ADD written_by MEDIUMTEXT;
+        </item>
+        <item>
+            ALTER TABLE ?:products
+            ADD release_date INT(11);
+        </item>
+        
+        <item for="uninstall">
+            ALTER TABLE ?:product_descriptions 
+            DROP art_by,
+            DROP written_by;
+        </item>
+        <item for="uninstall">
+            ALTER TABLE ?:products    
+            DROP release_date;
+        </item>
+    </queries>
+
+</addon>
